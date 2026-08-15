@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "system": {
+    "name": "Collective Memory MCP + AI Support Brain",
+    "short_name": "Memory / Brain",
+    "summary": "A modular collective-memory layer paired with coordinated support agents.",
+    "repository_role": "Public showcase metadata only; no private source code or credentials are included."
+  },
+  "components": [
+    { "name": "Collective Memory MCP", "role": "Persistent knowledge, indexing, search, plugins, and configuration." },
+    { "name": "AI Support Brain", "role": "Intent classification, knowledge retrieval, troubleshooting, tickets, and escalation." },
+    { "name": "Integration Bridge", "role": "Shared interface for context retrieval, document indexing, and conversation memory." }
+  ],
+  "agents": ["Intent", "Knowledge", "Troubleshoot", "Ticket", "Escalation"],
+  "capabilities": [
+    "Persistent collective memory",
+    "Multi-strategy retrieval",
+    "Plugin-based integrations",
+    "Multi-workspace knowledge organization",
+    "Context-aware support routing",
+    "Production deployment templates"
+  ],
+  "stack": ["Python", "FastAPI", "React", "SQLite", "Docker"],
+  "source_repositories": [
+    { "name": "mcp-ai-support-integrator", "visibility": "private", "purpose": "Original integration source; not exposed by this public repository." }
+  ]
+}
